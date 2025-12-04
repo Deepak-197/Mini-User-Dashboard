@@ -18,7 +18,7 @@ export default function LightDarkToggleMode() {
           />
           <span className="slider"></span>
         </label>
-       
+
         <span>{theme === "light" ? "Light" : "Dark"}</span>
       </div>
     </>

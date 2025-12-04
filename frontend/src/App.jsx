@@ -8,7 +8,7 @@ import CoinCard from "./components/CoinCard";
 import Spinner from "./components/Spinner";
 import LightDarkToggleMode from "./components/LightDarkToggleMode";
 import useAOS from "./hooks/animation";
-import { RefreshCcw } from 'lucide-react';
+import { RefreshCcw } from "lucide-react";
 
 function App() {
   useAOS();
@@ -20,8 +20,6 @@ function App() {
   const [dark, setDark] = useState(false);
   const refreshCooldown = useRef(false);
   const debouncedQuery = useDebounce(query, 300);
- 
-
 
   useEffect(() => {
     loadCoins();
@@ -58,15 +56,12 @@ function App() {
   async function handleRefresh() {
     if (refreshCooldown.current) return;
     refreshCooldown.current = true;
-    
+
     setTimeout(() => {
       refreshCooldown.current = false;
-        
-  }, 800);
+    }, 800);
     await loadCoins({ force: true });
   }
-
-
 
   return (
     <>

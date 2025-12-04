@@ -86,29 +86,27 @@ html,
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.app.dark .header{
-  /* box-shadow: #ffffff 0px 1px 2px 0px; */
-  box-shadow: rgba(230, 230, 230, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+.app.dark .header {
+  box-shadow: rgba(230, 230, 230, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 /* light and dark css */
- .header h2 {
+.header h2 {
   background: linear-gradient(to right, #2563eb, #1e293b);
-  background-clip: text;              /* Standard */
-  -webkit-background-clip: text;      /* WebKit */
+  background-clip: text; /* Standard */
+  -webkit-background-clip: text; /* WebKit */
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
 .app.dark .header h2 {
-  background: linear-gradient(to right,  #2563eb, #e6eef8);
+  background: linear-gradient(to right, #2563eb, #e6eef8);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-
-
 
 .controls {
   display: flex;
@@ -248,7 +246,6 @@ html,
   }
 }
 
-
 /* Toggle Switch */
 .switch {
   position: relative;
@@ -292,8 +289,6 @@ html,
 .switch input:checked + .slider:before {
   transform: translateX(22px);
 }
-
-
 
 /* ----------------------------- */
 /*   GLOBAL RESPONSIVENESS       */
@@ -371,7 +366,7 @@ html,
   }
 }
 
-.toggle{
+.toggle {
   flex-direction: row;
   align-items: end;
 }

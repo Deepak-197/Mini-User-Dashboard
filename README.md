@@ -14,28 +14,28 @@ A fully responsive cryptocurrency mini-dashboard built using React and custom CS
 This guide explains how to run the backend and frontend locally for development.
 
 📦 Backend Setup
-1. Go to the backend folder
+1. Go to the backend folder: <br>
 'cd backend'
 
-2. Install dependencies
+2. Install dependencies: <br>
 'npm install'
 
-3. Start the backend
+3. Start the backend: <br>
 Development mode
 'npm run dev'
 
-4. Backend will run at:
+4. Backend will run at:<br>
 http://localhost:4000
 
 💻 Frontend Setup
-1. Go to the frontend folder
+1. Go to the frontend folder: <br>
 'cd frontend'
 
-2. Install dependencies
+2. Install dependencies:<br>
 'npm install'
 
-3. Start the frontend
+3. Start the frontend:<br>
 'npm run dev'
 
-4. Frontend will run at:
+4. Frontend will run at:<br>
 http://localhost:5173

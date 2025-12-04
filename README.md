@@ -21,7 +21,7 @@ This guide explains how to run the backend and frontend locally for development.
 'npm install'
 
 3. Start the backend: <br>
-Development mode
+Development mode: <br>
 'npm run dev'
 
 4. Backend will run at:<br>

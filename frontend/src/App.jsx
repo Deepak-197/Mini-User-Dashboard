@@ -20,7 +20,7 @@ function App() {
   const [dark, setDark] = useState(false);
   const refreshCooldown = useRef(false);
   const debouncedQuery = useDebounce(query, 300);
-  // const [spinning, setSpinning] = useState(false);
+ 
 
 
   useEffect(() => {
@@ -58,10 +58,10 @@ function App() {
   async function handleRefresh() {
     if (refreshCooldown.current) return;
     refreshCooldown.current = true;
-    // setSpinning(true);
+    
     setTimeout(() => {
       refreshCooldown.current = false;
-        // setSpinning(false);
+        
   }, 800);
     await loadCoins({ force: true });
   }
@@ -81,7 +81,6 @@ function App() {
               className="search"
             />
             <button className="btn" onClick={handleRefresh}>
-               {/* <RefreshCcw className={`refresh-icon ${spinning ? "rotate" : ""}`} /> */}
               Refresh
             </button>
 
